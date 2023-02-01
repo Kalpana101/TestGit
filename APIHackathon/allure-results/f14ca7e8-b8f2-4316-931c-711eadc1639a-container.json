@@ -1,0 +1,1 @@
+{"uuid":"f14ca7e8-b8f2-4316-931c-711eadc1639a","name":"batchTest.PostBatche","children":["213af296-b9a5-4535-964f-a2eaaccc8114"],"befores":[{"name":"postData","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1674137090111,"stop":1674137090129}],"afters":[],"start":1674137083739,"stop":1674137091492}

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-19T12:28:24 EST" name="Suite" finished-at="2023-01-19T12:28:32 EST" duration-ms="8345">
+    <groups>
+    </groups>
+    <test started-at="2023-01-19T12:28:24 EST" name="Batch" finished-at="2023-01-19T12:28:29 EST" duration-ms="5850">
+      <class name="batchTest.GetbatchesbyProgramId">
+        <test-method signature="batchbyID()[pri:0, instance:batchTest.GetbatchesbyProgramId@53fb3dab]" started-at="2023-01-19T12:28:28 EST" name="batchbyID" finished-at="2023-01-19T12:28:28 EST" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- batchbyID -->
+      </class> <!-- batchTest.GetbatchesbyProgramId -->
+      <class name="batchTest.UpdateBatchById">
+        <test-method is-config="true" signature="putData()[pri:0, instance:batchTest.UpdateBatchById@14028087]" started-at="2023-01-19T12:28:29 EST" name="putData" finished-at="2023-01-19T12:28:29 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putData -->
+        <test-method signature="testPutId()[pri:0, instance:batchTest.UpdateBatchById@14028087]" started-at="2023-01-19T12:28:29 EST" name="testPutId" finished-at="2023-01-19T12:28:29 EST" duration-ms="167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPutId -->
+      </class> <!-- batchTest.UpdateBatchById -->
+      <class name="batchTest.GetBatchesbyID">
+        <test-method signature="batchbyID()[pri:0, instance:batchTest.GetBatchesbyID@4b013c76]" started-at="2023-01-19T12:28:28 EST" name="batchbyID" finished-at="2023-01-19T12:28:28 EST" duration-ms="168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- batchbyID -->
+      </class> <!-- batchTest.GetBatchesbyID -->
+      <class name="batchTest.PostBatche">
+        <test-method is-config="true" signature="postData()[pri:0, instance:batchTest.PostBatche@353352b6]" started-at="2023-01-19T12:28:28 EST" name="postData" finished-at="2023-01-19T12:28:28 EST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postData -->
+        <test-method signature="storeData()[pri:0, instance:batchTest.PostBatche@353352b6]" started-at="2023-01-19T12:28:28 EST" name="storeData" finished-at="2023-01-19T12:28:29 EST" duration-ms="655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- storeData -->
+      </class> <!-- batchTest.PostBatche -->
+      <class name="batchTest.GetBachallPrograms">
+        <test-method signature="getallPrograms()[pri:0, instance:batchTest.GetBachallPrograms@54422e18]" started-at="2023-01-19T12:28:24 EST" name="getallPrograms" finished-at="2023-01-19T12:28:27 EST" duration-ms="3806" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getallPrograms -->
+      </class> <!-- batchTest.GetBachallPrograms -->
+      <class name="batchTest.DeleteBatchById">
+        <test-method signature="deletebyBatchIDRequest()[pri:0, instance:batchTest.DeleteBatchById@cecf639]" started-at="2023-01-19T12:28:29 EST" name="deletebyBatchIDRequest" finished-at="2023-01-19T12:28:29 EST" duration-ms="338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletebyBatchIDRequest -->
+      </class> <!-- batchTest.DeleteBatchById -->
+      <class name="batchTest.GetBatchesByBatchName">
+        <test-method signature="batchbyNameRequest()[pri:0, instance:batchTest.GetBatchesByBatchName@548d708a]" started-at="2023-01-19T12:28:28 EST" name="batchbyNameRequest" finished-at="2023-01-19T12:28:28 EST" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- batchbyNameRequest -->
+      </class> <!-- batchTest.GetBatchesByBatchName -->
+    </test> <!-- Batch -->
+    <test started-at="2023-01-19T12:28:29 EST" name="Program" finished-at="2023-01-19T12:28:32 EST" duration-ms="2444">
+      <class name="programsTest.GetProgramNameByID">
+        <test-method signature="programbyID()[pri:0, instance:programsTest.GetProgramNameByID@4f32a3ad]" started-at="2023-01-19T12:28:30 EST" name="programbyID" finished-at="2023-01-19T12:28:31 EST" duration-ms="1185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- programbyID -->
+      </class> <!-- programsTest.GetProgramNameByID -->
+      <class name="programsTest.DeleteProgrambyID">
+        <test-method signature="deletebyIDRequest()[pri:0, instance:programsTest.DeleteProgrambyID@7d900ecf]" started-at="2023-01-19T12:28:32 EST" name="deletebyIDRequest" finished-at="2023-01-19T12:28:32 EST" duration-ms="262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletebyIDRequest -->
+      </class> <!-- programsTest.DeleteProgrambyID -->
+      <class name="programsTest.PutByNameRequest">
+        <test-method is-config="true" signature="putData()[pri:0, instance:programsTest.PutByNameRequest@6f53b8a]" started-at="2023-01-19T12:28:31 EST" name="putData" finished-at="2023-01-19T12:28:31 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putData -->
+        <test-method signature="testPutName()[pri:0, instance:programsTest.PutByNameRequest@6f53b8a]" started-at="2023-01-19T12:28:31 EST" name="testPutName" finished-at="2023-01-19T12:28:31 EST" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPutName -->
+      </class> <!-- programsTest.PutByNameRequest -->
+      <class name="programsTest.PutByProgramID">
+        <test-method is-config="true" signature="putData()[pri:0, instance:programsTest.PutByProgramID@5c80cf32]" started-at="2023-01-19T12:28:31 EST" name="putData" finished-at="2023-01-19T12:28:31 EST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putData -->
+        <test-method signature="testPutId()[pri:0, instance:programsTest.PutByProgramID@5c80cf32]" started-at="2023-01-19T12:28:31 EST" name="testPutId" finished-at="2023-01-19T12:28:32 EST" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPutId -->
+      </class> <!-- programsTest.PutByProgramID -->
+      <class name="programsTest.PostSaveProgram">
+        <test-method is-config="true" signature="postData()[pri:0, instance:programsTest.PostSaveProgram@6b695b06]" started-at="2023-01-19T12:28:31 EST" name="postData" finished-at="2023-01-19T12:28:31 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postData -->
+        <test-method signature="storeData()[pri:0, instance:programsTest.PostSaveProgram@6b695b06]" started-at="2023-01-19T12:28:31 EST" name="storeData" finished-at="2023-01-19T12:28:31 EST" duration-ms="163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- storeData -->
+      </class> <!-- programsTest.PostSaveProgram -->
+      <class name="programsTest.GetAllPrograms">
+        <test-method signature="getallPrograms()[pri:0, instance:programsTest.GetAllPrograms@71075444]" started-at="2023-01-19T12:28:29 EST" name="getallPrograms" finished-at="2023-01-19T12:28:30 EST" duration-ms="344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getallPrograms -->
+      </class> <!-- programsTest.GetAllPrograms -->
+    </test> <!-- Program -->
+  </suite> <!-- Suite -->
+</testng-results>
